@@ -23,6 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 60px 150px 0;
+  margin-bottom: 127px;
 }
 
 .main-logo {
@@ -67,4 +68,75 @@ body {
 .btn-green {
   background-color: #008000;
   color: #ffffff;
+}
+
+.main-container {
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.main-container {
+  max-width: 142rem;
+}
+
+.main-heading {
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 7.8rem;
+  text-align: center;
+  color: #263238;
+  margin: 0 288px;
+  margin-bottom: 69px;
+}
+
+.green-text {
+  color: #008000;
+}
+
+.main-info {
+  font-family: "League Spartan";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 180%;
+  color: #263238;
+  margin: 0 347px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.input-form {
+  width: 533px;
+  height: 76px;
+  background-color: rgba(38, 50, 56, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 209px;
+}
+
+.placeholder {
+  font-family: "League Spartan";
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: #263238;
+  margin-left: 25px;
+}
+
+.form-button {
+  width: 163px;
+  height: 64px;
+  background-color: #008000;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: auto;
+}
+
+.logo-container {
+  max-width: 142rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
