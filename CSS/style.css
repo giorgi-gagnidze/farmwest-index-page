@@ -3,3 +3,68 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../images/background/bg-01.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.header-container {
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 150px 0;
+}
+
+.main-logo {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 4.3rem;
+  color: #263238;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.4rem;
+}
+
+.nav-list-item {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #263238;
+}
+
+.btn {
+  width: 142px;
+  height: 64px;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  border-radius: 10px;
+}
+
+.btn-white {
+  color: #263238;
+  background-color: white;
+  border: 1px solid #263238;
+  margin-right: 1.6rem;
+}
+
+.btn-green {
+  background-color: #008000;
+  color: #ffffff;
+}
